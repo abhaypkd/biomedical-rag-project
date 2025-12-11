@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# PDF downloads
+data/pdfs/
+data/pdf_embeddings.json
+
+# Nomic / API keys
+.env
+.env.example
+
+# FAISS index (big file)
+*.faiss
+
+# OS junk
+.DS_Store
+Thumbs.db
